@@ -1,0 +1,9 @@
+
+public class ContadorCarnerinhos {
+
+	//for(bloco de inicialização: expressao bool de validacao: bloco de atualizacao)
+	//{
+	//o bloco sera executado ate que a expressao se torne falsa
+//}
+	
+}

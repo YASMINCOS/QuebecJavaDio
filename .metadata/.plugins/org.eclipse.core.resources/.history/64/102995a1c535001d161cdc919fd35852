@@ -1,0 +1,10 @@
+
+public class Atributos {
+//representacao de caracteristicas
+//responsavel por definir a estrutura de dados-caracterizando o conceito
+	//carro-cor
+	//viagem-distancia
+	//computador-memoria
+	//atributo-o que e proprio e peculiar a alguem ou a alguma coisa
+	//variavel-instavel
+}

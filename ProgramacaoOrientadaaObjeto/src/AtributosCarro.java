@@ -1,0 +1,23 @@
+
+public class AtributosCarro {
+//representacao de caracteristicas
+//responsavel por definir a estrutura de dados-caracterizando o conceito
+	//carro-cor
+	//viagem-distancia
+	//computador-memoria
+	//atributo-o que e proprio e peculiar a alguem ou a alguma coisa
+	//variavel-instavel
+	//java e #c
+	//class carro{
+	//int portas}
+	
+	//python
+//	class carro:
+	//portas=0
+	//defina tresatributos p java
+	
+	String cor;
+	String modelo;
+	int capacidadeTanque;
+	
+}

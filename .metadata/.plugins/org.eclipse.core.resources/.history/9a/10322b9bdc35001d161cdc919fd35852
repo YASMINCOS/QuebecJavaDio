@@ -1,0 +1,18 @@
+import java.io.File;
+
+public class CheckedExceptions {
+
+	public static void main(String[] args) {
+		
+		String nomeDoArquivo= "romances-black.txt";
+		imprimirArquivoNoConsole(nomeDoArquivo);
+		
+		System.out.println("Apesar da exception ou nao, o programa continua");
+	}
+	public static void imprimirArquivoNoConsole(String nomeDoArquivo) {
+		
+		File file=new File(nomeDoArquivo);
+		
+		Buffer
+	}
+}

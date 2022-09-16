@@ -1,0 +1,7 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		ClassMae[] classes= new ClassMae[] {new ClasseFilha1(), new ClasseFilha2(), new ClassMae()};	
+	}
+}

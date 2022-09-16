@@ -1,0 +1,11 @@
+
+public class ColectionsList {
+  //colection- objeto que agrupa multiplos elementos(variaveis primitivas ou objetos) dentro de uma unica unidade
+	//serve para armazenar e processar conjuntos de dados de forma mais eficientes
+	//interfaces-contrato que quando assumido por uma classe deve ser implementado
+	//implementacao ou classes-materializacoes a codificacao das interfaces
+	
+	//interface list
+	//java.util.list-
+	
+}

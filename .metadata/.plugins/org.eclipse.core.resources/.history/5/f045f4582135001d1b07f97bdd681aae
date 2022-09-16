@@ -1,0 +1,75 @@
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
+public class ColecoesSingularesSet {
+
+	//set-java.util.set
+	//nao possui indice
+	//hasset=hashmap
+	//hasset-linkedhashset
+	//hasset-
+	public static void main(String[] args) {
+		
+		System.out.println("--\t Ordem aleatoria\t--");
+		Set<Serie> minhasSeries= new HashSet<>() {{
+			add(new Serie ("prison break","suspense",60));
+			add(new Serie ("bom dia venonica","suspense",56));
+			add(new Serie ("Cobra Kai","drama",60));
+		}};
+		
+		}
+	}
+
+class Serie{
+	private String nome;
+	private String genero;
+	private Integer tempoEp;
+	
+	public Serie(String nome, String genero, Integer tempoEp) {
+		this.nome=nome;
+		this.genero=genero;
+		this.tempoEp=tempoEp;
+		
+		
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getGenero() {
+		return genero;
+	}
+
+	public Integer getTempoEp() {
+		return tempoEp;
+	}
+	@Override
+	public String toString() {
+		return "{"+
+	       "nome='"+nome+'\''+
+	       ", genero='"+genero+'\''+
+	       ",tempoE=p"+tempoEp+
+	       '}';
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(genero, nome, tempoEp);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Serie other = (Serie) obj;
+		return Objects.equals(genero, other.genero) && Objects.equals(nome, other.nome)
+				&& Objects.equals(tempoEp, other.tempoEp);
+	}
+	
+}

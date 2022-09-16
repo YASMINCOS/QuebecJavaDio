@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Exercicio calculadora");
+		Calculadora.soma(1, 6);
+		Calculadora.subtracao(9, 5);
+		Calculadora.multiplicacao(3, 6);
+		Calculadora.divisao(81, 8);
+		
+		System.out.println("Exercicio mensagem:");
+		Mensagem.obterMensagem(9);
+		Mensagem.obterMensagem(13);
+		Mensagem.obterMensagem(22);
+		
+		System.out.println("Exercicio Emprestimo");
+		Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
+		Emprestimo.calcular(1000, 3);
+		Emprestimo.calcular(1000, 5);
+	}
+	
+}

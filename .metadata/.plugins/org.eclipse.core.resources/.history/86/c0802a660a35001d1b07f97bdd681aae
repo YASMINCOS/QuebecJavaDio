@@ -1,0 +1,28 @@
+import java.util.Locale;
+import java.util.Scanner;
+public class TryCatch {
+
+	//execoes fluxo nao previstos para a aplicacao
+	public static void main(String[] args) {
+		
+		Scanner scanner= new Scanner(System.in).useLocale(Locale.US);
+		
+		System.out.println("Informe seu nome:");
+		String nome= scanner.next();
+		
+		System.out.println("Informe seu sobrenome:");
+		String sobrenome= scanner.next();
+		
+		System.out.println("Informe sua idade:");
+		Integer idade= scanner.nextInt();
+		
+		//nao definimos a entrada
+		System.out.println("Informe sua altura:");
+		Integer altura= scanner.nextInt();
+		
+		System.out.println("Nome:"+nome);
+		System.out.println("Sobrenome"+ sobrenome);
+		System.out.println("Idade:"+idade);
+		System.out.println("Altura"+ altura);
+	}
+}

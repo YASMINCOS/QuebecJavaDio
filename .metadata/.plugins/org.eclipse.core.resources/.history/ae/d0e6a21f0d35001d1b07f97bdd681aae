@@ -1,0 +1,15 @@
+
+public class Hierarquia {
+
+	//checked and unchecked exceptions- excecoes checadas ou nao checadas
+	
+	//exception 
+	//runtimeexception
+	//checada ou nao checada- o ricso de ser disparada e necessidade de tratar
+	
+	public static void main(String[] args) {
+		
+		Number valor= Double.valueOf("a1.75");
+		System.out.println(valor);
+	}
+}

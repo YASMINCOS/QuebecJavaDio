@@ -1,0 +1,37 @@
+
+public class MetodoCarro {
+
+	//carro-ligar
+	//computador-desligar
+	//comprador-realizar compra
+	//visibilidade
+	//retorno
+	//nome
+	//paramentros
+	
+	//java e #c
+	//class carro{
+	//  void frear(){
+	//     . .
+	//  }
+	//}
+	
+	//python carro:
+	//  def frear()
+	
+	//metodos especiais
+	//construtor
+	//class carro{
+	//  carro(){
+	//   ...
+	//  }
+	//}
+	
+	//destrutor
+	///class carro{
+	   //void finalize(){
+	//     ...
+	//}
+	//}
+	
+}

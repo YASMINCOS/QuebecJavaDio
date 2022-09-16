@@ -1,0 +1,14 @@
+package jUnitaplicacao;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import org.junit.Test;
+
+public class PessoaTest {
+
+	@Test
+	void deveCalcularIdadeCorretamente() {
+		Pessoa jessica=new Pessoa("jessica", LocalDateTime.of(2000, 1,1, 1, 3));
+	}
+}

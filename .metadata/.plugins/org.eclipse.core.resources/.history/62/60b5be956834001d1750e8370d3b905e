@@ -1,0 +1,13 @@
+import java.util.concurrent.ThreadLocalRandom;
+public class While {
+    public static void main(String[] args) {
+	//while(expressao booleana de validacao)
+    	//{
+    	//comando
+    	//}
+    	double mesada=50.0;
+    	while(mesada>0) {
+    		Double valorDoce= valorAleatorio
+    	}
+}
+}

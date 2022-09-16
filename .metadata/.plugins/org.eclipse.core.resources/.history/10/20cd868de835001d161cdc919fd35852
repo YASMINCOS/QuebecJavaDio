@@ -1,0 +1,12 @@
+package jUnitjunitTeste;
+
+import java.time.LocalDate;
+
+import jUnitaplicacao.Pessoa;
+
+public class PessoaTest {
+
+	void validarCalculoDeIdade() {
+		Pessoa pessoa= new Pessoa("julia",LocalDate.of(2020,2,1));
+	}
+}

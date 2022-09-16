@@ -1,0 +1,9 @@
+import java.util.Locale;
+import java.util.Scanner;
+public class TryCatch {
+
+	//execoes fluxo nao previstos para a aplicacao
+	public static void main(String[] args) {
+		
+	}
+}

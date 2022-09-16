@@ -1,0 +1,32 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CollectionMap {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Crie um dicionario que relacione os modelos e seu respectivos consumos");
+		Map<String,Double> carrosPopulares= new HashMap<>() {{
+			put("gol",14.4);
+			put("uno",15.5);
+			put("mobi",16.1);
+			put("hb20",14.5);
+			put("kwid",15.6);
+			
+			
+		}};
+		System.out.println(carrosPopulares.toString());
+		
+		System.out.println("Substitua o consumo do gol por 15,2 km/l:");
+		carrosPopulares.put("gol", 15.2);
+		System.out.println(carrosPopulares);
+		
+		System.out.println("Confira se o modelo tucson esta na lista"+ carrosPopulares.containsKey("tucson"));
+		
+		System.out.println("Exiba o consumo do uno" + carrosPopulares.get("uno"));
+		
+		System.out.println("Exiba os modelos "+);
+		}
+	}
+

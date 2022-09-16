@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+
+public class UncheckedException {
+
+	public static void main(String[] args) {
+		
+		String a= JOptionPane.showInputDialog("Numerador:");
+		String b= JOptionPane.showInputDialog("Denominador:");
+	}
+}

@@ -1,0 +1,20 @@
+
+public class FormatadorDeCep {
+
+	public static void main(String[] args) {
+		try {
+		String cepFormatado= formatarCep("23345345");
+		System.out.println(cepFormatado);
+		}catch(CepInavlidoException e) {
+			e.printStackTrace();
+		}
+	}
+		static String formatarCep(String cep) throws CepInavlidoException{
+			if (cep.length()!=8) 
+				throw new CepInavlidoException();
+			
+			return"23.345-345";
+			
+		}
+	}
+

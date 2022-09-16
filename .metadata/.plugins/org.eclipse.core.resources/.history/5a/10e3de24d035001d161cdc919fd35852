@@ -1,0 +1,15 @@
+
+public class Herancas {
+	
+	//heranca-estacoes de classes maes, onde pode ser aproveitado os metodos e atributos
+	//class A extends B{
+	//...
+	//}
+
+	//tipos
+	//simples
+	//a clase filha tem so uma classe mae: ex: funcionario- gerente,faxineiro,atendente
+	//multipla-estudante, funcionario-estagiario
+	//java nao possui heranca multipla
+	
+}
